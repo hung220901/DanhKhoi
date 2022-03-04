@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+}
+html{
+    font-family: Gothic,OpenSans,"regular";
+}
+.banner{
+    background: url(./img/Nhon\ Hoi\ -\ PK2\ -\ Cong\ vien\ trung\ tam.png) rgba(0,0,0,0.4);
+    height:600px;
+    background-blend-mode: darken;
+    background-size: 100%;
+   
+    
+}
+.top-banner{
+    padding: 3% 3%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.text-menu{
+    color: white;
+    padding-left: 10%;
+}
+.menu-icon{
+    width: 20px;
+    height: 20px;
+}
+.menu{
+    display: flex;
+    
+}
+
+.logo-page {
+    width: 100px;
+    height: 100px;
+}
+.info-contact{
+    display: flex;
+    
+}
+
+.icon-phone{
+    width: 20px;
+    height: 20px;
+}
+
+.phone{
+    color: white;
+    display: flex;
+    white-space: nowrap;
+}
+.phone-number{
+    margin: 0 5%;
+}
+
+.change-language{
+    color: white;
+    margin: 0 10%;
+    white-space: nowrap;
+}
+.red-text{
+    color: red;
+}
+
+.text-banner{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.middle-banner{
+    display: flex;
+    padding: 0 5%;
+}
+.btn-prev , .btn-back{
+    /* background-color:white; */
+
+}
+.mid-right-banner{
+    display: flex;
+    flex-direction: column;
+}
+.arrow{
+    width: 20px;
+    height: 20px;
+    padding: 30% 30%;
+    background-color: white;
+    border-radius: 5px;
+}
+.arrow-left{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.list-item{
+    color: white;
+    
+}
+hr{
+    margin: 10% 5% 5% 5%;
+    
+    color: white;
+    
+    /* width: 70%; */
+}
